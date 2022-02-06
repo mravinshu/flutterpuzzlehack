@@ -44583,14 +44583,13 @@ O(a,b){return new A.oZ(B.Ay,"The R's puzzle",A.a2b(B.Y),null)}}
 A.pc.prototype={
 aC(){return new A.CA(B.n)}}
 A.CA.prototype={
-O(a,b){var s,r,q,p,o,n,m=null,l=b.a7(t.w).f.a,k=l.b,j=l.a
-l=t.R
-s=A.a([A.a0x(A.Z3("Correct tiles = "+A.d($.a5V())),new A.Ux(j,k))],l)
-for(r=j/15,q=k/7,p=0;p<4;++p){o=A.a([],l)
-for(n=0;n<4;++n)o.push(A.a0g(A.a([A.Yk(m,A.a8Z(new A.id(B.wg,new A.lT(r,q,new A.nE(B.ae,m,m,A.Z3(B.h.i($.na[p][n])),m),m),m),B.AU),B.b1,!1,m,m,m,m,m,m,m,m,m,m,new A.Uy(this,p,n),m,m,m,m,m)],l),B.ed))
-s.push(A.a1S(o,B.ed,B.ee))}s.push(new A.xD(new A.Uz(this),m,m,m,m,B.B,m,!1,B.G6,m))
-s.push(A.a0x(A.Z3("Moves = "+$.Xm),new A.UA()))
-return new A.q7(A.a0g(s,B.ed),m)}}
+O(a,b){var s,r,q,p,o=null,n=b.a7(t.w).f.a,m=n.a,l=t.R
+n=A.a([A.a0x(A.Z3("Correct tiles = "+A.d($.a5V())),new A.Ux(m,n.b))],l)
+for(s=m/15,r=0;r<4;++r){q=A.a([],l)
+for(p=0;p<4;++p)q.push(A.a0g(A.a([A.Yk(o,A.a8Z(new A.id(B.wg,new A.lT(s,s,new A.nE(B.ae,o,o,A.Z3(B.h.i($.na[r][p])),o),o),o),B.AU),B.b1,!1,o,o,o,o,o,o,o,o,o,o,new A.Uy(this,r,p),o,o,o,o,o)],l),B.ed))
+n.push(A.a1S(q,B.ed,B.ee))}n.push(new A.xD(new A.Uz(this),o,o,o,o,B.B,o,!1,B.G6,o))
+n.push(A.a0x(A.Z3("Moves = "+$.Xm),new A.UA()))
+return new A.q7(A.a0g(n,B.ed),o)}}
 A.Ux.prototype={
 $0(){A.uf(B.d.i(this.a)+" "+B.d.i(this.b))},
 $S:0}
